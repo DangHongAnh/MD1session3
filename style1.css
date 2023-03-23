@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.start{
+    background-color: hsl(210.86deg 28% 24.51%); ;
+    display: flex;
+    justify-content: space-between;
+    padding:  20px 50px;
+    color: #fff;
+
+
+}
+.item1{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+
+}
+.bootstrap{
+    background-color: rgb(24 188 155);;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 0;
+}
+.portfolio{
+    background-color: #fff;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+}
+.box-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;   
+}
+.about{
+    background-color:rgb(24 188 155); ;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 30px;
+}
+.aout-1{
+    display: flex;
+    width: 430px;
+    gap: 50px;
+}
+.about-2{
+    display: flex;
+    gap: 10px;
+    border: solid;
+    padding: 10px;
+    border-radius: 5px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+.contac-2{
+   width: 400px;
+   
+}
+.contac-2 input{
+    border: none;
+    font-size: 20px;
+    padding: 15px 0;
+    outline: none;
+
+}
+.button button{
+    background-color: rgb(24 188 155);;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid  transparent;
+}
+.end{
+    background-color:hsl(210.86deg 28% 24.51%); ;
+    color: #fff;
+    display: flex;
+justify-content: space-around; 
+    
+}
+.end2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    width: 200px;
+    text-align: center;
+}
+.footer{
+    background-color: hsl(208.57deg 28.77% 14.31%);
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    font-size: 10px;}
